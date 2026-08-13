@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  docker-registry-secrets:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-08-13T13:23:06.259712961Z"
+    description: Kubernetes secrets for Docker registry credentials (imagePullSecrets)
+    digest: f9c4977d7869779729d998dda5b568390b05ba8d53dfe9811fc4c450089eab69
+    name: docker-registry-secrets
+    type: application
+    urls:
+    - https://github.com/maybeYo/helm-charts/releases/download/docker-registry-secrets-0.1.0/docker-registry-secrets-0.1.0.tgz
+    version: 0.1.0
+  hello-world:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-08-13T13:23:06.421393034Z"
+    description: A Helm chart for Kubernetes
+    digest: 0a8be93d7d687d1f4d06a5917c97f0c2a6dd30acc80e58028fa57ced7af32db2
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/maybeYo/helm-charts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-08-13T13:23:06.421398665Z"
