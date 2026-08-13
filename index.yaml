@@ -14,6 +14,16 @@ entries:
   hello-world:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2026-08-13T14:55:55.235610127Z"
+    description: A Helm chart for Kubernetes
+    digest: e6459b24c72eff7ba8504c2811db4be149d9e7b739ff218b1f64c70f72f0c567
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/maybeYo/helm-charts/releases/download/hello-world-0.1.3/hello-world-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2026-08-13T14:26:06.092045735Z"
     description: A Helm chart for Kubernetes
     digest: 8010d833cf5b73f48a9853c6620f86b4e15cf2b32c3ce829bd3f9caef10f7270
@@ -42,4 +52,4 @@ entries:
     urls:
     - https://github.com/maybeYo/helm-charts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-13T14:26:06.092059145Z"
+generated: "2026-08-13T14:55:55.235626878Z"
