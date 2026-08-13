@@ -1,0 +1,12 @@
+dockerregistries: {} # fixed name for this group
+#testreg1:
+#- url: https://docker.artifactory.com/dockerhub # URL of you Docker registries
+#  name: hallo
+#  password: hallo
+#- url: https://docker.artifactory.com/dockerhub # URL of you Docker registries
+#  name: hallo2
+#  password: hallo2
+#testreg2:
+#  - url: https://docker.artifactory.com/dockerhub # URL of you Docker registries
+#    name: hallo
+#    password: hallo

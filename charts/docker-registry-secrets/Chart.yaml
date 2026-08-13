@@ -1,0 +1,6 @@
+apiVersion: v2
+name: docker-registry-secrets
+description: Kubernetes secrets for Docker registry credentials (imagePullSecrets)
+type: application
+version: 0.1.0
+appVersion: "1.0.0"

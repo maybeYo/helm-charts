@@ -1,0 +1,18 @@
+{{- range $name, $dockerreg := .Values.dockerregistries }}
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: {{ $name }}
+{{- if $.Values.labels }}
+  labels:
+{{ toYaml $.Values.labels | indent 4 }}
+{{- end }}
+  annotations:
+{{- if $.Values.annotations }}
+{{ toYaml $.Values.annotations | indent 4 }}
+{{- end }}
+data:
+  .dockerconfigjson: {{ include "dockereg" $dockerreg | b64enc }}
+type: kubernetes.io/dockerconfigjson
+{{ end -}}
